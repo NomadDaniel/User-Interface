@@ -56,10 +56,13 @@ box-sizing: border-box;
 
 html, body {
 height: 100%;
-font-family: 'Titillium Web', sans-serif;
-}
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Muli', sans-serif; */
+/* font-family: 'Bellota', cursive; */
+font-family: 'Cedarville Cursive', cursive;}
 
 h1, h2, h3, h4, h5 {
+/* font-family: 'Bellota', cursive; */
 font-family: 'Bangers', cursive;
 letter-spacing: 1px;
 margin-bottom: 15px;
