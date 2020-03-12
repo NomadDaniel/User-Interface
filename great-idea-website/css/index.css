@@ -51,7 +51,7 @@ border-spacing: 0;
 /* Set every element's box-sizing to border-box */
 * {
 box-sizing: border-box;
-border: 1px solid grey !important;
+/* border: 1px solid grey !important; */
 }
 
 html, body {
@@ -67,8 +67,8 @@ margin-bottom: 15px;
 
 /* Your code starts here! */
 .container {
-	width: 900px;
-	margin: 0 auto;
+width: 900px;
+margin: 0 auto;
 }
 
 header a {
@@ -85,16 +85,22 @@ letter-spacing: ;
 
 .logo {
 margin-left: 15%;
+vertical-align: middle;
 }
 
-nav a {
-margin: 
+
+
+nav {
+padding-top: 2%; 
 }
 
 .top-content {
 display: inline-block;
 margin: 0 auto;
 width: 100%;
+border-bottom: 1px solid grey;
+padding-top: 5%;
+padding-bottom: 7%;
 }
 
 .top-content-text {
@@ -110,71 +116,85 @@ font-size: 4rem;
 }
 
 /* img src="img/header-img.png" {
-	margin-right: 100px;
+margin-right: 100px;
 } */
 
 .circle-image {
-	/* align-items:  */
-	margin-left: 1%;
-	display: inline-block;
+/* align-items:  */
+margin-left: 1%;
+display: inline-block;
 }
 
 .middle-content {
-	display: inline-block;
-	width: 100%;
+display: inline-block;
+width: 100%;
+padding-top: 3%;
 }
 
 .left-paragraph {  
-	width: 45%;
-	display: inline-block;
-	margin: 2%;
+width: 45%;
+display: inline-block;
+margin: 2%;
 }
 
 .right-paragraph {
-	width: 45%;
-	display: inline-block;
-	margin: 2%;
+width: 45%;
+display: inline-block;
+margin: 2%;
 }
 
 .middle-img {
-	margin: 1%;
+margin: 1%;
 }
 
 .bottom-content {
-	display: inline-block;
-	margin-left: 7%;
-	/* color: red; */
+display: inline-block;
+/* margin-left: 7%; */
+padding-top: 5%;
+padding-bottom: 5%;
+/* color: red; */
+margin: 0 auto;
 }
 
 .services {
-	display: inline-block;
-	/* color: red; */
-	width: 30%;
+display: inline-block;
+/* color: red; */
+width: 32%;
+margin-left: 1%;
 }
 
 .product {
-	display: inline-block;
-	/* color: red; */
-	width: 30%;
+display: inline-block;
+/* color: red; */
+width: 32%;
 }
 .vision {
-	display: inline-block;
-	/* color: red; */
-	width: 30%;
+display: inline-block;
+/* color: red; */
+width: 32%;
 }
 
+.contact {
+border-top: 1px solid grey;
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 1%;
+}
 .address {
-	width: 18%;
-	margin-bottom: 2%;
+width: 18%;
+margin-bottom: 2%;
+/* margin-left: 1%; */
 }
 .phone {
-	width: 18%;
-	margin-bottom: 2%;
+width: 18%;
+margin-bottom: 2%;
+/* margin-left: 1%; */
 }.email {
-	width: 18%;
-	margin-bottom: 2%;
+width: 18%;
+margin-bottom: 2%;
+/* margin-left: 1%; */
 }
 
 .copyright p {
-	text-align: center;
+text-align: center;
 }
