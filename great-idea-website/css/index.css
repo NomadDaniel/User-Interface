@@ -139,3 +139,42 @@ font-size: 4rem;
 .middle-img {
 	margin: 1%;
 }
+
+.bottom-content {
+	display: inline-block;
+	margin-left: 7%;
+	/* color: red; */
+}
+
+.services {
+	display: inline-block;
+	/* color: red; */
+	width: 30%;
+}
+
+.product {
+	display: inline-block;
+	/* color: red; */
+	width: 30%;
+}
+.vision {
+	display: inline-block;
+	/* color: red; */
+	width: 30%;
+}
+
+.address {
+	width: 18%;
+	margin-bottom: 2%;
+}
+.phone {
+	width: 18%;
+	margin-bottom: 2%;
+}.email {
+	width: 18%;
+	margin-bottom: 2%;
+}
+
+.copyright p {
+	text-align: center;
+}
